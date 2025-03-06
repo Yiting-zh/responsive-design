@@ -1,0 +1,66 @@
+body{
+  background-color: black;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 84px !important;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 142px;
+}
+
+nav img {
+  height: auto;
+  width: auto;
+  margin-right: 110px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  margin: 28px;
+}
+
+main{
+  width: 100vw;
+}
+
+
+main div{
+  display: flex;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: auto;
+  margin-left: 142px;
+}
+
+.left p{
+  max-width: 410px;
+  font-size: 22px;
+}
+
+.right{
+  width: 50%;
+  height: auto;
+}
+
+.right img {
+  width: 90%;
+  height: auto;
+}
