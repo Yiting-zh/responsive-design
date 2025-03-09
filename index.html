@@ -14,15 +14,19 @@
 <body>
  <header>
    <nav>
-       <img src="images/Logo.png" alt="Logo">
-       <ul>
-         <li>Works</li>
-         <li>Services</li>
-         <li>Contacts</li>
-       </ul>  
+       <img src="images/Logo.png" alt="Logo"  class="logo">
+       <ul class="links"> 
+         <li><a href="#work">Works</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#contacts">Contacts</a></li>
+       </ul>
+       <div class="hamburger">&#9776;</div>   
    </nav>
   
  </header>
+
+
+
 
 
  <main>
@@ -36,9 +40,20 @@
 
 
      <section class="right" >
-       <img src="images/Slider.jpg" alt="man">
+      <picture>
+       <source srcset="images/Image-mobile.png"  media="(max-width: 320px)">
+       <source srcset="images/Image-tablet.png"  media="(max-width: 877px)">
+       <source srcset="images/Slider.jpg"  media="(max-width: 1440px)">
+       <img src="images/Slider.jpg" alt="man's profile">
+      </picture>
+       
      </section>
+
    </div>
  </main>
+
+
+
+ <script src="index.js"></script>
  </body>
 </html>
